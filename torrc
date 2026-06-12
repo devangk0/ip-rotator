@@ -1,0 +1,4 @@
+DataDirectory ..\data
+SocksPort 9050
+ControlPort 9051
+CookieAuthentication 0
