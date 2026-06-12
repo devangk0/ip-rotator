@@ -1,10 +1,10 @@
-# 🔄 IP Rotator — Tor-Based TUI Tool
+# IP Rotator — Tor-Based TUI Tool
 
 Automatically rotates your IP address through the Tor network on a timer you control. Includes a terminal dashboard and a pre-configured Firefox browser to verify your rotating IP.
 
 ---
 
-## 📦 What's Inside the Package
+##  What's Inside the Package
 
 ```
 ip-rotator/
@@ -17,18 +17,18 @@ ip-rotator/
 
 ---
 
-## ✅ Requirements
+##  Requirements
 
 - Windows 10 or 11
 - Python 3.8 or newer — download from [python.org](https://python.org) if needed
-  - ⚠️ During install, check **"Add Python to PATH"**
+  -  During install, check **"Add Python to PATH"**
 - No Tor Browser or VPN needed — everything is included
 
-> 📁 The tool can be placed **anywhere** on any drive — no config files need editing.
+>  The tool can be placed **anywhere** on any drive — no config files need editing.
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 You will need **two Command Prompt windows** open at the same time.
 
@@ -186,7 +186,7 @@ Before using Firefox to verify your IP, you need to point it at Tor. Do this onc
 
 ---
 
-## 💡 Tips
+##  Tips
 
 - A rotation interval of **30–60 seconds** is a good balance between speed and reliability
 - The **Rotate Now** button is useful if a circuit feels slow — it skips the wait immediately
