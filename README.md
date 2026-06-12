@@ -21,7 +21,6 @@ D:\ipRotator\
 
 - **Windows 10 or 11**
 - **Python 3.8+** — [python.org](https://python.org) — check **"Add Python to PATH"** during install
-- **Tor Expert Bundle** — [torproject.org/download/tor](https://www.torproject.org/download/tor/)
 - **Firefox Portable** — [portableapps.com/apps/internet/firefox_portable](https://portableapps.com/apps/internet/firefox_portable)
 
 > Firefox Portable is a self-contained browser that doesn't affect your main browser or system settings. All proxy config stays inside it.
@@ -36,24 +35,7 @@ D:\ipRotator\
 pip install stem requests pysocks
 ```
 
-### 2 — Extract Tor Expert Bundle
-
-Extract the downloaded `.tar.gz` and copy the `tor\` and `data\` folders into `D:\ipRotator\`.
-
-### 3 — Create the torrc config
-
-Open Notepad, paste the following, and save as `D:\ipRotator\torrc`
-
-> Save As → File type: **All Files** → filename: `torrc` with no `.txt` extension
-
-```
-DataDirectory D:\ipRotator\data
-SocksPort 9050
-ControlPort 9051
-CookieAuthentication 1
-```
-
-### 4 — Configure Firefox Portable (one time only)
+### 2 — Configure Firefox Portable (one time only)
 
 1. Launch Firefox Portable
 2. Click **☰** → **Settings** → scroll to bottom → **Network Settings** → **Settings…**
@@ -104,6 +86,34 @@ The GUI opens. Set your interval and click **START ROTATING**.
 1. Open Firefox Portable
 2. Go to `http://httpbin.org/ip`
 3. After each rotation, press `Ctrl + Shift + R` — you'll see a new IP every time
+
+---
+
+## Dashboard
+
+```
+┌─────────────────────────────────────────────────┐
+│               IP ROTATOR                        │
+│          tor-based circuit rotation             │
+│                                                 │
+│  ● tor connected                                │
+│                                                 │
+│            current ip                          │
+│        185.220.101.29                           │
+│                                                 │
+│  rotations: 6   interval: 10s   status: running │
+│                                                 │
+│  rotate every [10] seconds  (min 10)            │
+│                                                 │
+│  [         STOP          ]                      │
+│                                                 │
+│  ip history                                     │
+│  20:40:12  185.220.101.6                        │
+│  20:40:23  193.189.100.204                      │
+│  20:40:27  80.94.92.92                          │
+│  20:40:38  193.189.100.205                      │
+└─────────────────────────────────────────────────┘
+```
 
 ---
 
