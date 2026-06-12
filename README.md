@@ -107,34 +107,6 @@ The GUI opens. Set your interval and click **START ROTATING**.
 
 ---
 
-## Dashboard
-
-```
-┌─────────────────────────────────────────────────┐
-│               IP ROTATOR                        │
-│          tor-based circuit rotation             │
-│                                                 │
-│  ● tor connected                                │
-│                                                 │
-│            current ip                          │
-│        185.220.101.29                           │
-│                                                 │
-│  rotations: 6   interval: 10s   status: running │
-│                                                 │
-│  rotate every [10] seconds  (min 10)            │
-│                                                 │
-│  [         STOP          ]                      │
-│                                                 │
-│  ip history                                     │
-│  20:40:12  185.220.101.6                        │
-│  20:40:23  193.189.100.204                      │
-│  20:40:27  80.94.92.92                          │
-│  20:40:38  193.189.100.205                      │
-└─────────────────────────────────────────────────┘
-```
-
----
-
 ## Stopping Everything
 
 1. Click **STOP** in the rotator GUI (or close it)
